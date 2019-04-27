@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="javafx-sdk-11.0">
+    <ANNOTATIONS>
+      <root url="file:///Applications/javafx-sdk-11.0.2" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file:///Applications/javafx-sdk-11.0.2" />
+      <root url="file://$JAVAFX$" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file:///Applications/javafx-sdk-11.0.2" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file:///Applications/javafx-sdk-11.0.2" />
+      <root url="file://$JAVAFX$" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file:///Applications/javafx-sdk-11.0.2" />
+      <root url="file://$JAVAFX$" />
+    </SOURCES>
+    <jarDirectory url="file:///Applications/javafx-sdk-11.0.2" recursive="false" />
+    <jarDirectory url="file://$JAVAFX$" recursive="false" />
+    <jarDirectory url="file:///Applications/javafx-sdk-11.0.2" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$JAVAFX$" recursive="false" type="SOURCES" />
+  </library>
+</component>
