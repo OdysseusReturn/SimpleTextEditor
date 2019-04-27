@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane prefHeight="152.0" prefWidth="800.0" style="-fx-background-color: #4C9CD2 #4C9CD2;">
+            <children>
+                <Label layoutX="284.0" layoutY="24.0" text="Simple text editor" textFill="WHITE">
+                    <font>
+                        <Font name="System Font" size="30.0" />
+                    </font>
+                </Label>
+                <Button fx:id="openFileButton" onAction="#openFile" layoutX="296.0" layoutY="88.0" mnemonicParsing="false" style="-fx-background-color: #5B90C2 #5B90C2;" text="Open file" textFill="WHITE" />
+                <Button fx:id="newFileButton" onAction="#createNewFile" layoutX="169.0" layoutY="88.0" mnemonicParsing="false" style="-fx-background-color: #5B90C2 #5B90C2;" text="New file" textFill="WHITE" />
+                <Button fx:id="saveFileButton" onAction="#saveFile" layoutX="426.0" layoutY="88.0" mnemonicParsing="false" style="-fx-background-color: #5B90C2 #5B90C2;" text="Save file" textFill="WHITE" />
+                <Button fx:id="closeFileButton" onAction="#closeFile" layoutX="556.0" layoutY="88.0" mnemonicParsing="false" style="-fx-background-color: #5B90C2 #5B90C2;" text="Close file" textFill="WHITE" />
+            </children>
+        </AnchorPane>
+        <TextArea fx:id="textArea"  layoutY="151.0" prefHeight="450.0" prefWidth="800.0" />
+    </children>
+</AnchorPane>
