@@ -1,6 +1,5 @@
 package sample;
 
-import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -56,12 +55,13 @@ public class Controller {
         StringBuffer stringBuffer = new StringBuffer();
         List<String> lines = null;
         try {
-            lines = Files.readAllLines(Paths.get("/Users/admin/Desktop/note.txt"), StandardCharsets.UTF_8); //add line wrapping
+            lines = Files.readAllLines(Paths.get("/Users/admin/Desktop/note.txt"), StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         }
         for(String line: lines){
             stringBuffer.append(line);
+            stringBuffer.append("\n");
         }
 
         String inStr = stringBuffer.toString();
@@ -87,6 +87,7 @@ public class Controller {
 
     @FXML
     private void closeFile(ActionEvent event) {
-        Platform.exit();
+         textArea.setText("");
+
     }
 }
